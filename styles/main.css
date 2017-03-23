@@ -3,6 +3,7 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
+    font-family: 'Bowlby One SC', cursive;
 }
 
 body {
@@ -58,7 +59,7 @@ p {
 
 .main-nav li {
 	display: inline;
-	padding: 80px 25px  0 25px;
+	padding: 80px 15px  0 15px;
 }
 
 .main-nav a {
@@ -89,7 +90,7 @@ p {
 .sub-nav li {
 
 	padding-top: 140px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 .sub-nav a {
@@ -144,7 +145,7 @@ p {
 footer {
 	height: 35px;
 	width: 100%;
-
+	padding-top: 10px;
 	color: red;
 	background-color: black;
 	clear: both;
