@@ -1,3 +1,152 @@
+html,
 body {
-	background-color: pink;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+}
+
+p {
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 100px;
+	background-color: lightgrey;
+}
+
+#logo {
+	height: 50px;
+	weight: 200px;
+	background-color: black;
+	color: red;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+#wrapper {
+	width: 1200px;
+	height: 1600px;
+	margin: 0 auto;
+	background-color: darkgrey;
+	border: 1px solid green;
+}
+
+
+
+/*=========MAIN NAVIGATON==========*/
+.main-nav {
+	width: 800px;
+	height: 100px;
+	background-color: black;
+	text-align: left;
+	border: 1px solid red;
+	position: fixed;
+}
+
+.main-nav ul {
+	
+	padding-top: 20px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.main-nav li {
+	display: inline;
+	padding: 80px 25px  0 25px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.main-nav a:hover {
+	color: white;
+	background-color: black;
+}
+
+/*=========SUB NAVIGATON==========*/
+.sub-nav {
+	height: 1800px;
+	width: 398px;
+	text-align: left;
+	border: 1px solid black;
+	position: fixed;
+}
+
+.sub-nav ul {
+
+	list-style-type: none;
+	//display: block;
+}
+
+.sub-nav li {
+
+	padding-top: 140px;
+	padding-bottom: 40px;
+}
+
+.sub-nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.sub-nav a:hover {
+	color: white;
+	background-color: black;
+}
+
+#dinner,
+#lunch,
+#bar {
+	font-size: 46px;
+}
+
+#dinner {
+	//background-color: lightgrey;
+	//border: 1px solid red;
+}
+
+#lunch {
+	//background-color: red;
+	//border: 1px solid red;
+}
+
+#bar {
+	//background-color: green;
+	//border: 1px solid red;
+}
+
+/*=========LAYOUT==========*/
+.mealpictures {
+	height: 1600px;
+	width: 800px;
+	background-color: black;
+	//float: right;
+}
+
+
+#rightside {
+	float: right;
+}
+
+#leftside {
+	float: left;
+}
+
+/*=========FOOTER==========*/
+footer {
+	height: 35px;
+	width: 100%;
+
+	color: red;
+	background-color: black;
+	clear: both;
+	//position: fixed;
 }
